@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CLSM Factory</title>
+<link href="index 2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+</head>
+
+<body data-target=".navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style=" border-width:0 0 0px;">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="navbar-brand page-scroll" href="#home"><img class="logo" src="./img/logo/logo.png" style="max-width:30px;"/></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#home">CLSM Factory</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+</nav>
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="row"><span class="col-lg-12">
+            <img src='dekstop.png' style="width:700px;height:640px;">
+            </div>
+            <a class="page-scroll" href="#about">
+            <div class="arrow-down bounce">
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="about-headline">This section is About me</p>
+                    <p class="about-headline">Read below to know more!</p>
+                    <div class="about-reveal">
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <img src='line and profile.png' style="width:700px;height:730px;">
+                                <p class="about-text">My name is christine lim and i am nineteen years old this year. My hobbies is playing 
+                                video games, Travel  all around the world and taking photos of beutiful 
+                                sceneries. I am the kind of person who knows how to execute difficult tasks with 
+                                precision. I pay attention to all the details of a project. I make sure that every task 
+                                is just right, but is also completed in a timely manner.</p>
+                                <p class="about-text">Want to check out my portfolio?</p><br><br>
+                                <a class="page-scroll" href="#portfolio">
+                                <div class="arrow-down bounce">
+                                </div>
+                                </a>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center" style="margin-bottom:30px;margin-top: -20px">
+                    <p class="portfolio-text">This section is about my Portfolio<br>
+                    <p class="portfolio-text"> have a look! </p>
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 70%; margin-left: 180px">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                          <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img id="carouselImage" data-toggle="modal" data-target="#myModal1" src="./img/carousel-img/carousel-pic-1.jpg" alt="Carousel1" style="width:100%;">
+                          </div>
+
+                          <div class="item">
+                            <img id="carouselImage" data-toggle="modal" data-target="#myModal2" src="./img/carousel-img/carousel-pic-2.jpg" alt="Carousel" style="width:100%;">
+                          </div>
+                        
+                          <div class="item">
+                            <img id="carouselImage" data-toggle="modal" data-target="#myModal3" src="./img/carousel-img/branding.jpg" alt="Carousel3" style="width:100%;">
+                          </div>
+
+                          <div class="item">
+                            <img id="carouselImage" data-toggle="modal" data-target="#myModal4" src="./img/carousel-img/postcard.jpg" alt="Carousel4" style="width:100%;">
+                          </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+
+
+                        <div id="myModal1" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img class="showimage img-responsive" src="./img/carousel-img/carousel-pic-1.jpg" />
+                                        <p class="modal-text">Zoo Icon Design, created by using <img src="./img/adobe.img/ai-icon.png" style="width:30px; height:30px;"> and the effort of work took one week to complete.</p>
+                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div id="myModal2" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img class="showimage img-responsive" src="./img/carousel-img/carousel-pic-2.jpg" />
+                                        <p class="modal-text">LOTR Book Cover, created by using <img src="./img/adobe.img/ai-icon.png" style="width:30px; height:30px;"> and the effort of work took three weeks to complete.</p>
+                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div id="myModal3" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img class="showimage img-responsive" src="./img/carousel-img/branding.jpg" />
+                                        <p class="modal-text">Branding Design, created by using <img src="./img/adobe.img/ai-icon.png" style="width:30px; height:30px;"> and <img src="./img/adobe.img/ps-icon.png" style="width:30px; height:30px;"> . The effort of work took three weeks to complete.</p>
+                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div id="myModal4" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img class="showimage img-responsive" src="./img/carousel-img/postcard.jpg" />
+                                        <p class="modal-text">Postcard Design, created by using <img src="./img/adobe.img/ai-icon.png" style="width:30px; height:30px;"> and the effort of work took one week to complete.</p>
+                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>                  
+                </div>
+            </div>
+             <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center hidden-md-down">
+                        <a href="#skills" class="page-scroll"><canvas id="myCanvas"></canvas></a>
+                        <script  src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+                        <script type="text/javascript" src="./js/animated-text.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="skills-headline">This is all the Tools that i know </p>
+                    <table align="center">
+                        <tr class="adobe-reveal">
+                            <td><img src='./img/adobe.img/dw-icon.png' style="max-width:130px;"></td>
+                            <td><img src='./img/adobe.img/ps-icon.png' style="max-width:130px;"></td>
+                            <td><img src='./img/adobe.img/pr-icon.png' style="max-width:130px;"></td>
+                            <td><img src='./img/adobe.img/ai-icon.png' style="max-width:130px;"></td>
+                            <td><img src='./img/adobe.img/id-icon.png' style="max-width:130px;"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="count">45</span><span class="percentage"> %</span></td>
+                            <td><span class="count">65</span><span class="percentage"> %</span></td>
+                            <td><span class="count">71</span><span class="percentage"> %</span></td>
+                            <td><span class="count">83</span><span class="percentage"> %</span></td>
+                            <td><span class="count">40</span><span class="percentage"> %</span></td>
+                        </tr>
+                    </table>
+                    <p class="skills-text">The above are the tools that i have experienced in, and along with the rate 
+                    of familiarity of each of the respective tools.  <br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container" style="width:60%;">
+            <div class="row" style="color:white;">
+                    <h1>Contact Me</h1>
+                    <form class="form-horizontal" action="">
+                        <div class="form-group">
+                            <label class="control-label col-sm-1" for="name">Name</label>
+                            <div class="col-sm-offset-1 col-sm-9">
+                                <input type="text" class="form-control" id="name" name="name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-1" for="email">Email</label>
+                            <div class="col-sm-offset-1 col-sm-9">
+                                <input type="email" class="form-control" id="email" name="email" style="color:black;">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-1" for="message">Message</label>
+                            <div class="col-sm-offset-1 col-sm-9">
+                                <textarea class="form-control" rows="8" id="message" name="message"></textarea>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-default" id="send-button">Send</button>
+                    </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/suemei.lim" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/?lang=en" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.pinterest.com/" class="social-icon"> <i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="https://www.instagram.com/?hl=en" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+                </ul>
+    </footer>
+    
+    <!-- Scrolling Nav JavaScript -->
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/scrolling-nav.js"></script>
+    <!-- Scroll Reveal JavaScript -->
+    <script type="text/javascript" src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="./js/scroll-reveal.js"></script>
+    <!-- Counter JavaScript -->
+    <script src="./js/count.js"></script>
+    <script type="text/javascript">
+
+  </script>
+</body>
+</html>
